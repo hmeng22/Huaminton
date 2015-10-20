@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0EC9471B0C2AB4009E1D50 /* blueTooth.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0EC9461B0C2AB4009E1D50 /* blueTooth.m */; };
+		BB17C6F21B1398BE009EC41B /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB17C6F01B13984D009EC41B /* CoreBluetooth.framework */; };
+		BB17C6FE1B1399DE009EC41B /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BB17C6F41B1399DE009EC41B /* FMDatabase.m */; };
+		BB17C6FF1B1399DE009EC41B /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BB17C6F61B1399DE009EC41B /* FMDatabaseAdditions.m */; };
+		BB17C7001B1399DE009EC41B /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = BB17C6F81B1399DE009EC41B /* FMDatabasePool.m */; };
+		BB17C7011B1399DE009EC41B /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = BB17C6FA1B1399DE009EC41B /* FMDatabaseQueue.m */; };
+		BB17C7021B1399DE009EC41B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BB17C6FD1B1399DE009EC41B /* FMResultSet.m */; };
+		BB47CB741AF5CD0200ECFD6B /* detailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB47CB731AF5CD0200ECFD6B /* detailsViewController.m */; };
+		BB60BBD11AF673E900F75D3D /* graphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB60BBD01AF673E900F75D3D /* graphViewController.m */; };
+		BB7570C51AF559AE0019D577 /* GameModal.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7570C41AF559AE0019D577 /* GameModal.m */; };
+		BB7570C81AF559C00019D577 /* RoundModal.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7570C71AF559C00019D577 /* RoundModal.m */; };
+		BB84C4C51AF320AE00367DC1 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BB84C4C41AF320AE00367DC1 /* libsqlite3.0.dylib */; };
+		BB96176F1AEC1F3200BB3D0B /* settingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB96176E1AEC1F3200BB3D0B /* settingViewController.m */; };
+		BB9617721AEC1F5200BB3D0B /* boardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9617711AEC1F5200BB3D0B /* boardViewController.m */; };
+		BB9617751AEC1F6400BB3D0B /* playerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9617741AEC1F6400BB3D0B /* playerViewController.m */; };
+		BB9617781AEC1F9B00BB3D0B /* histroyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9617771AEC1F9B00BB3D0B /* histroyViewController.m */; };
+		BBA436CF1AEC8E26006A15C6 /* HuamintonMatch.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA436CE1AEC8E26006A15C6 /* HuamintonMatch.m */; };
+		BBB7B8B81AEF23680057D4E1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB7B8B51AEF232B0057D4E1 /* MessageUI.framework */; };
+		BBB7B8BB1AEF492A0057D4E1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB7B8B91AEF491A0057D4E1 /* MobileCoreServices.framework */; };
+		BBC8017F1AE97E2A00A7C487 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC8017E1AE97E2A00A7C487 /* main.m */; };
+		BBC801821AE97E2A00A7C487 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC801811AE97E2A00A7C487 /* AppDelegate.m */; };
+		BBC801851AE97E2A00A7C487 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC801841AE97E2A00A7C487 /* ViewController.m */; };
+		BBC801881AE97E2A00A7C487 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC801861AE97E2A00A7C487 /* Main.storyboard */; };
+		BBC8018A1AE97E2A00A7C487 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC801891AE97E2A00A7C487 /* Images.xcassets */; };
+		BBC8018D1AE97E2A00A7C487 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBC8018B1AE97E2A00A7C487 /* LaunchScreen.xib */; };
+		BBC801991AE97E2A00A7C487 /* HuamintonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC801981AE97E2A00A7C487 /* HuamintonTests.m */; };
+		BBC801A41AE9868000A7C487 /* HuamintonGame.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC801A31AE9868000A7C487 /* HuamintonGame.m */; };
+		BBC801A71AE9879A00A7C487 /* HuamintonPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC801A61AE9879A00A7C487 /* HuamintonPlayer.m */; };
+		BBEBF0D81AF7C39200D6A388 /* graphView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEBF0D71AF7C39200D6A388 /* graphView.m */; };
+		BBFEA4B61B2C922600B1489A /* bluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFEA4B51B2C922600B1489A /* bluetoothViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBC801931AE97E2A00A7C487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBC801711AE97E2A00A7C487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBC801781AE97E2A00A7C487;
+			remoteInfo = Huaminton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB0EC9451B0C2AB4009E1D50 /* blueTooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blueTooth.h; sourceTree = "<group>"; };
+		BB0EC9461B0C2AB4009E1D50 /* blueTooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = blueTooth.m; sourceTree = "<group>"; };
+		BB17C6F01B13984D009EC41B /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		BB17C6F31B1399DE009EC41B /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = Huaminton/FMDB/FMDatabase.h; sourceTree = "<group>"; };
+		BB17C6F41B1399DE009EC41B /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = Huaminton/FMDB/FMDatabase.m; sourceTree = "<group>"; };
+		BB17C6F51B1399DE009EC41B /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = Huaminton/FMDB/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		BB17C6F61B1399DE009EC41B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = Huaminton/FMDB/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		BB17C6F71B1399DE009EC41B /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = Huaminton/FMDB/FMDatabasePool.h; sourceTree = "<group>"; };
+		BB17C6F81B1399DE009EC41B /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = Huaminton/FMDB/FMDatabasePool.m; sourceTree = "<group>"; };
+		BB17C6F91B1399DE009EC41B /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = Huaminton/FMDB/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		BB17C6FA1B1399DE009EC41B /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = Huaminton/FMDB/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		BB17C6FB1B1399DE009EC41B /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = Huaminton/FMDB/FMDB.h; sourceTree = "<group>"; };
+		BB17C6FC1B1399DE009EC41B /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = Huaminton/FMDB/FMResultSet.h; sourceTree = "<group>"; };
+		BB17C6FD1B1399DE009EC41B /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = Huaminton/FMDB/FMResultSet.m; sourceTree = "<group>"; };
+		BB47CB721AF5CD0200ECFD6B /* detailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailsViewController.h; sourceTree = "<group>"; };
+		BB47CB731AF5CD0200ECFD6B /* detailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailsViewController.m; sourceTree = "<group>"; };
+		BB60BBCF1AF673E900F75D3D /* graphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphViewController.h; sourceTree = "<group>"; };
+		BB60BBD01AF673E900F75D3D /* graphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = graphViewController.m; sourceTree = "<group>"; };
+		BB7570C31AF559AE0019D577 /* GameModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModal.h; sourceTree = "<group>"; };
+		BB7570C41AF559AE0019D577 /* GameModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModal.m; sourceTree = "<group>"; };
+		BB7570C61AF559C00019D577 /* RoundModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundModal.h; sourceTree = "<group>"; };
+		BB7570C71AF559C00019D577 /* RoundModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundModal.m; sourceTree = "<group>"; };
+		BB84C4C41AF320AE00367DC1 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		BB96176D1AEC1F3200BB3D0B /* settingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingViewController.h; sourceTree = "<group>"; };
+		BB96176E1AEC1F3200BB3D0B /* settingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingViewController.m; sourceTree = "<group>"; };
+		BB9617701AEC1F5200BB3D0B /* boardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = boardViewController.h; sourceTree = "<group>"; };
+		BB9617711AEC1F5200BB3D0B /* boardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = boardViewController.m; sourceTree = "<group>"; };
+		BB9617731AEC1F6400BB3D0B /* playerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playerViewController.h; sourceTree = "<group>"; };
+		BB9617741AEC1F6400BB3D0B /* playerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playerViewController.m; sourceTree = "<group>"; };
+		BB9617761AEC1F9B00BB3D0B /* histroyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = histroyViewController.h; sourceTree = "<group>"; };
+		BB9617771AEC1F9B00BB3D0B /* histroyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = histroyViewController.m; sourceTree = "<group>"; };
+		BBA436CD1AEC8E26006A15C6 /* HuamintonMatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuamintonMatch.h; sourceTree = "<group>"; };
+		BBA436CE1AEC8E26006A15C6 /* HuamintonMatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuamintonMatch.m; sourceTree = "<group>"; };
+		BBB7B8B51AEF232B0057D4E1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		BBB7B8B91AEF491A0057D4E1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BBC801791AE97E2A00A7C487 /* Huaminton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Huaminton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC8017D1AE97E2A00A7C487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC8017E1AE97E2A00A7C487 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BBC801801AE97E2A00A7C487 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BBC801811AE97E2A00A7C487 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BBC801831AE97E2A00A7C487 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BBC801841AE97E2A00A7C487 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBC801871AE97E2A00A7C487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBC801891AE97E2A00A7C487 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BBC8018C1AE97E2A00A7C487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BBC801921AE97E2A00A7C487 /* HuamintonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuamintonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC801971AE97E2A00A7C487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC801981AE97E2A00A7C487 /* HuamintonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuamintonTests.m; sourceTree = "<group>"; };
+		BBC801A21AE9868000A7C487 /* HuamintonGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuamintonGame.h; sourceTree = "<group>"; };
+		BBC801A31AE9868000A7C487 /* HuamintonGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuamintonGame.m; sourceTree = "<group>"; };
+		BBC801A51AE9879A00A7C487 /* HuamintonPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuamintonPlayer.h; sourceTree = "<group>"; };
+		BBC801A61AE9879A00A7C487 /* HuamintonPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuamintonPlayer.m; sourceTree = "<group>"; };
+		BBEBF0D61AF7C39200D6A388 /* graphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = graphView.h; sourceTree = "<group>"; };
+		BBEBF0D71AF7C39200D6A388 /* graphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = graphView.m; sourceTree = "<group>"; };
+		BBFEA4B41B2C922600B1489A /* bluetoothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bluetoothViewController.h; sourceTree = "<group>"; };
+		BBFEA4B51B2C922600B1489A /* bluetoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bluetoothViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBC801761AE97E2A00A7C487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB17C6F21B1398BE009EC41B /* CoreBluetooth.framework in Frameworks */,
+				BB84C4C51AF320AE00367DC1 /* libsqlite3.0.dylib in Frameworks */,
+				BBB7B8BB1AEF492A0057D4E1 /* MobileCoreServices.framework in Frameworks */,
+				BBB7B8B81AEF23680057D4E1 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC8018F1AE97E2A00A7C487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBB7B8B71AEF23350057D4E1 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				BB17C6F31B1399DE009EC41B /* FMDatabase.h */,
+				BB17C6F41B1399DE009EC41B /* FMDatabase.m */,
+				BB17C6F51B1399DE009EC41B /* FMDatabaseAdditions.h */,
+				BB17C6F61B1399DE009EC41B /* FMDatabaseAdditions.m */,
+				BB17C6F71B1399DE009EC41B /* FMDatabasePool.h */,
+				BB17C6F81B1399DE009EC41B /* FMDatabasePool.m */,
+				BB17C6F91B1399DE009EC41B /* FMDatabaseQueue.h */,
+				BB17C6FA1B1399DE009EC41B /* FMDatabaseQueue.m */,
+				BB17C6FB1B1399DE009EC41B /* FMDB.h */,
+				BB17C6FC1B1399DE009EC41B /* FMResultSet.h */,
+				BB17C6FD1B1399DE009EC41B /* FMResultSet.m */,
+				BB17C6F01B13984D009EC41B /* CoreBluetooth.framework */,
+				BB84C4C41AF320AE00367DC1 /* libsqlite3.0.dylib */,
+				BBB7B8B91AEF491A0057D4E1 /* MobileCoreServices.framework */,
+				BBB7B8B51AEF232B0057D4E1 /* MessageUI.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		BBC801701AE97E2A00A7C487 = {
+			isa = PBXGroup;
+			children = (
+				BBC8017B1AE97E2A00A7C487 /* Huaminton */,
+				BBB7B8B71AEF23350057D4E1 /* framework */,
+				BBC801951AE97E2A00A7C487 /* HuamintonTests */,
+				BBC8017A1AE97E2A00A7C487 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBC8017A1AE97E2A00A7C487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBC801791AE97E2A00A7C487 /* Huaminton.app */,
+				BBC801921AE97E2A00A7C487 /* HuamintonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBC8017B1AE97E2A00A7C487 /* Huaminton */ = {
+			isa = PBXGroup;
+			children = (
+				BBC801A21AE9868000A7C487 /* HuamintonGame.h */,
+				BBC801A31AE9868000A7C487 /* HuamintonGame.m */,
+				BBA436CD1AEC8E26006A15C6 /* HuamintonMatch.h */,
+				BBA436CE1AEC8E26006A15C6 /* HuamintonMatch.m */,
+				BBC801A51AE9879A00A7C487 /* HuamintonPlayer.h */,
+				BBC801A61AE9879A00A7C487 /* HuamintonPlayer.m */,
+				BB7570C31AF559AE0019D577 /* GameModal.h */,
+				BB7570C41AF559AE0019D577 /* GameModal.m */,
+				BB7570C61AF559C00019D577 /* RoundModal.h */,
+				BB7570C71AF559C00019D577 /* RoundModal.m */,
+				BBC801831AE97E2A00A7C487 /* ViewController.h */,
+				BBC801841AE97E2A00A7C487 /* ViewController.m */,
+				BB9617701AEC1F5200BB3D0B /* boardViewController.h */,
+				BB9617711AEC1F5200BB3D0B /* boardViewController.m */,
+				BB9617731AEC1F6400BB3D0B /* playerViewController.h */,
+				BB9617741AEC1F6400BB3D0B /* playerViewController.m */,
+				BB96176D1AEC1F3200BB3D0B /* settingViewController.h */,
+				BB96176E1AEC1F3200BB3D0B /* settingViewController.m */,
+				BB9617761AEC1F9B00BB3D0B /* histroyViewController.h */,
+				BB9617771AEC1F9B00BB3D0B /* histroyViewController.m */,
+				BB47CB721AF5CD0200ECFD6B /* detailsViewController.h */,
+				BB47CB731AF5CD0200ECFD6B /* detailsViewController.m */,
+				BB60BBCF1AF673E900F75D3D /* graphViewController.h */,
+				BB60BBD01AF673E900F75D3D /* graphViewController.m */,
+				BBEBF0D61AF7C39200D6A388 /* graphView.h */,
+				BBEBF0D71AF7C39200D6A388 /* graphView.m */,
+				BBFEA4B41B2C922600B1489A /* bluetoothViewController.h */,
+				BBFEA4B51B2C922600B1489A /* bluetoothViewController.m */,
+				BB0EC9451B0C2AB4009E1D50 /* blueTooth.h */,
+				BB0EC9461B0C2AB4009E1D50 /* blueTooth.m */,
+				BBC801861AE97E2A00A7C487 /* Main.storyboard */,
+				BBC801891AE97E2A00A7C487 /* Images.xcassets */,
+				BBC8018B1AE97E2A00A7C487 /* LaunchScreen.xib */,
+				BBC8017C1AE97E2A00A7C487 /* Supporting Files */,
+			);
+			path = Huaminton;
+			sourceTree = "<group>";
+		};
+		BBC8017C1AE97E2A00A7C487 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBC801801AE97E2A00A7C487 /* AppDelegate.h */,
+				BBC801811AE97E2A00A7C487 /* AppDelegate.m */,
+				BBC8017D1AE97E2A00A7C487 /* Info.plist */,
+				BBC8017E1AE97E2A00A7C487 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBC801951AE97E2A00A7C487 /* HuamintonTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBC801981AE97E2A00A7C487 /* HuamintonTests.m */,
+				BBC801961AE97E2A00A7C487 /* Supporting Files */,
+			);
+			path = HuamintonTests;
+			sourceTree = "<group>";
+		};
+		BBC801961AE97E2A00A7C487 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBC801971AE97E2A00A7C487 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBC801781AE97E2A00A7C487 /* Huaminton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC8019C1AE97E2A00A7C487 /* Build configuration list for PBXNativeTarget "Huaminton" */;
+			buildPhases = (
+				BBC801751AE97E2A00A7C487 /* Sources */,
+				BBC801761AE97E2A00A7C487 /* Frameworks */,
+				BBC801771AE97E2A00A7C487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Huaminton;
+			productName = Huaminton;
+			productReference = BBC801791AE97E2A00A7C487 /* Huaminton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBC801911AE97E2A00A7C487 /* HuamintonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC8019F1AE97E2A00A7C487 /* Build configuration list for PBXNativeTarget "HuamintonTests" */;
+			buildPhases = (
+				BBC8018E1AE97E2A00A7C487 /* Sources */,
+				BBC8018F1AE97E2A00A7C487 /* Frameworks */,
+				BBC801901AE97E2A00A7C487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBC801941AE97E2A00A7C487 /* PBXTargetDependency */,
+			);
+			name = HuamintonTests;
+			productName = HuamintonTests;
+			productReference = BBC801921AE97E2A00A7C487 /* HuamintonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBC801711AE97E2A00A7C487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = menghua.cn;
+				TargetAttributes = {
+					BBC801781AE97E2A00A7C487 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = P296UF8TLU;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+					BBC801911AE97E2A00A7C487 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = BBC801781AE97E2A00A7C487;
+					};
+				};
+			};
+			buildConfigurationList = BBC801741AE97E2A00A7C487 /* Build configuration list for PBXProject "Huaminton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBC801701AE97E2A00A7C487;
+			productRefGroup = BBC8017A1AE97E2A00A7C487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBC801781AE97E2A00A7C487 /* Huaminton */,
+				BBC801911AE97E2A00A7C487 /* HuamintonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBC801771AE97E2A00A7C487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC801881AE97E2A00A7C487 /* Main.storyboard in Resources */,
+				BBC8018D1AE97E2A00A7C487 /* LaunchScreen.xib in Resources */,
+				BBC8018A1AE97E2A00A7C487 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC801901AE97E2A00A7C487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBC801751AE97E2A00A7C487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0EC9471B0C2AB4009E1D50 /* blueTooth.m in Sources */,
+				BBFEA4B61B2C922600B1489A /* bluetoothViewController.m in Sources */,
+				BB7570C81AF559C00019D577 /* RoundModal.m in Sources */,
+				BB17C7001B1399DE009EC41B /* FMDatabasePool.m in Sources */,
+				BB47CB741AF5CD0200ECFD6B /* detailsViewController.m in Sources */,
+				BBC801851AE97E2A00A7C487 /* ViewController.m in Sources */,
+				BB17C7011B1399DE009EC41B /* FMDatabaseQueue.m in Sources */,
+				BB17C6FE1B1399DE009EC41B /* FMDatabase.m in Sources */,
+				BB17C6FF1B1399DE009EC41B /* FMDatabaseAdditions.m in Sources */,
+				BB96176F1AEC1F3200BB3D0B /* settingViewController.m in Sources */,
+				BB17C7021B1399DE009EC41B /* FMResultSet.m in Sources */,
+				BB60BBD11AF673E900F75D3D /* graphViewController.m in Sources */,
+				BBC801821AE97E2A00A7C487 /* AppDelegate.m in Sources */,
+				BB9617781AEC1F9B00BB3D0B /* histroyViewController.m in Sources */,
+				BBC801A71AE9879A00A7C487 /* HuamintonPlayer.m in Sources */,
+				BBC8017F1AE97E2A00A7C487 /* main.m in Sources */,
+				BBEBF0D81AF7C39200D6A388 /* graphView.m in Sources */,
+				BB9617751AEC1F6400BB3D0B /* playerViewController.m in Sources */,
+				BBC801A41AE9868000A7C487 /* HuamintonGame.m in Sources */,
+				BB9617721AEC1F5200BB3D0B /* boardViewController.m in Sources */,
+				BB7570C51AF559AE0019D577 /* GameModal.m in Sources */,
+				BBA436CF1AEC8E26006A15C6 /* HuamintonMatch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC8018E1AE97E2A00A7C487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC801991AE97E2A00A7C487 /* HuamintonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBC801941AE97E2A00A7C487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBC801781AE97E2A00A7C487 /* Huaminton */;
+			targetProxy = BBC801931AE97E2A00A7C487 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BBC801861AE97E2A00A7C487 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBC801871AE97E2A00A7C487 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BBC8018B1AE97E2A00A7C487 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBC8018C1AE97E2A00A7C487 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBC8019A1AE97E2A00A7C487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBC8019B1AE97E2A00A7C487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBC8019D1AE97E2A00A7C487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Huaminton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "menghua.cn.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BBC8019E1AE97E2A00A7C487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Huaminton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "menghua.cn.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BBC801A01AE97E2A00A7C487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HuamintonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "menghua.cn.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Huaminton.app/Huaminton";
+			};
+			name = Debug;
+		};
+		BBC801A11AE97E2A00A7C487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HuamintonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "menghua.cn.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Huaminton.app/Huaminton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBC801741AE97E2A00A7C487 /* Build configuration list for PBXProject "Huaminton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC8019A1AE97E2A00A7C487 /* Debug */,
+				BBC8019B1AE97E2A00A7C487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC8019C1AE97E2A00A7C487 /* Build configuration list for PBXNativeTarget "Huaminton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC8019D1AE97E2A00A7C487 /* Debug */,
+				BBC8019E1AE97E2A00A7C487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC8019F1AE97E2A00A7C487 /* Build configuration list for PBXNativeTarget "HuamintonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC801A01AE97E2A00A7C487 /* Debug */,
+				BBC801A11AE97E2A00A7C487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBC801711AE97E2A00A7C487 /* Project object */;
+}
